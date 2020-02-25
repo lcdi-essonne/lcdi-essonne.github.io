@@ -1,27 +1,27 @@
 @font-face
 {
-	font-family: 'Ruben';
-	src: url('fonts/Ruben.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Ruben';
+    src: url('fonts/Ruben.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 header
 {
-	position: fixed;
-	top: 0px;
-	width: 100%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 body
 {
-	background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401, #1C1C1C);
-	font-size: 1em;
-	text-align: center;
-	width: auto;
-	margin: auto;
-	overflow: scroll;
-	word-wrap: break-word;
+    background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401, #1C1C1C);
+    font-size: 1em;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    overflow: scroll;
+    word-wrap: break-word;
     font-family: 'Crimson Pro', 'Crimson Text', 'Slabo 27px', serif;
     position: relative;
     top: 50px;
@@ -29,206 +29,206 @@ body
 
 section
 {
-	padding: 10px;
-	margin: 10px;
-	text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 img
 {
-	border: 3px #1C1C1C outset;
-	border-radius: 10px;
-	box-shadow: 8px 8px 5px black;
-	margin: 10px;
-	transition: 1s;
-	cursor:pointer;
+    border: 3px #1C1C1C outset;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px black;
+    margin: 10px;
+    transition: 1s;
+    cursor:pointer;
 }
 
 .joueur
 {
-	border: 3px grey outset;
-	border-radius: 25px;
-	box-shadow: 8px 8px 5px black;
-	padding: 10px;
-	margin: 10px;
-	background-color: #F7BE81;
-	width: 400px;
+    border: 3px grey outset;
+    border-radius: 25px;
+    box-shadow: 8px 8px 5px black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F7BE81;
+    width: 400px;
 }
 
 .und
 {
-	text-decoration:underline;
-	font-weight : bolder;
+    text-decoration:underline;
+    font-weight : bolder;
 }
 
 .profil
 {
-	border: inherit;	
-	box-shadow: inherit;
+    border: inherit;    
+    box-shadow: inherit;
 }
 
 #banniere
-{	
-	border: inherit;
-	box-shadow: inherit;
-	background-color: inherit;
-	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+{   
+    border: inherit;
+    box-shadow: inherit;
+    background-color: inherit;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1, h2, .ruben
 {
-	font-family: Ruben, Impact, 'Arial Black', 'Times New Roman', sans-serif;
+    font-family: Ruben, Impact, 'Arial Black', 'Times New Roman', sans-serif;
 }
 
 h1
 {
-	font-size: 400%;
-	color: #FFBF00;
+    font-size: 400%;
+    color: #FFBF00;
 }
 
 h2, #accueil
-{	
-	font-size: 200%;
-	margin-top: 20px;
+{   
+    font-size: 200%;
+    margin-top: 20px;
 }
 
 h3
 {
-	font-size: 150%;
-	color:#151515;
-	text-align: center;
+    font-size: 150%;
+    color:#151515;
+    text-align: center;
 }
 
 h3 strong, h2 strong, h2 strong
 {
-	font-weight : bolder;
+    font-weight : bolder;
 }
 
 p, ul, ol
 {
-	font-size: 120%;
+    font-size: 120%;
 }
 
 #accueil
 {
-	text-align: center;
+    text-align: center;
 }
 
 .bouton
-{	
-	color: #1C1C1C;
-	border: 3px #1C1C1C outset;
-	background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
-	border-radius: 50px;
-	box-shadow: 6px 6px 5px black;
-	padding: 10px;
-	margin: 10px;
-	transition: 1s;
-	text-decoration:none;
-	cursor:pointer;
+{   
+    color: #1C1C1C;
+    border: 3px #1C1C1C outset;
+    background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
+    border-radius: 50px;
+    box-shadow: 6px 6px 5px black;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+    text-decoration:none;
+    cursor:pointer;
 }
 
 nav
 {
-	border: 3px grey outset;
-	background-color: #DF7401;
-	border-radius: 10px;
-	box-shadow: 6px 6px 5px black;	
+    border: 3px grey outset;
+    background-color: #DF7401;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px black;  
 }
 
 a
 {
-	color: #1C1C1C;
+    color: #1C1C1C;
 }
 
 
 .box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation
 {
-	display: flex;	
-	flex-wrap: wrap;	
+    display: flex;  
+    flex-wrap: wrap;    
 }
 
 .bouton_box
 {
-	flex-direction: row;	
-	justify-content: center;
-	margin-top: 50px;
+    flex-direction: row;    
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .box
 {
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .box_w
 {
-	flex-direction: row;	
-	justify-content: center;
-	align-items: center;
-	max-width: 500px;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
 }
 
 .box_long
 {
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box_long_r
 {
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .ludo, .navigation
 {
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .mentions
 {
-	margin-top: 35px;
-	text-align: center;
+    margin-top: 35px;
+    text-align: center;
 }
 
 nav li
 {
-	padding-left: 10px;
+    padding-left: 10px;
 }
 
 .bouton:hover
 {
-	background:linear-gradient(to bottom, #DF7401 5%, #FFBF00 100%);
-	transform: scale(0.99);
-	box-shadow: none;
+    background:linear-gradient(to bottom, #DF7401 5%, #FFBF00 100%);
+    transform: scale(0.99);
+    box-shadow: none;
 }
 
 ul
 {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 ol, p, ul
 {
-	text-align: left;
+    text-align: left;
 }
 
 strong
 {
-	font-weight : normal;
+    font-weight : normal;
 }
 
 .effet img:hover
 {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
@@ -237,47 +237,47 @@ strong
 
 
 @media all and (max-width: 799px)
-{	
-	#banniere, img
-	{
-		width: 400px;
-		transition: 0s;
-	}
+{   
+    #banniere, img
+    {
+        width: 400px;
+        transition: 0s;
+    }
 
-	.effet img:hover
-	{
-		transform: inherit;
-	}
+    .effet img:hover
+    {
+        transform: inherit;
+    }
 
-	h1
-	{
-		font-size: 250%;
-	}
+    h1
+    {
+        font-size: 250%;
+    }
 
-	h2, #accueil
-	{
-		font-size: 150%;
-	}
+    h2, #accueil
+    {
+        font-size: 150%;
+    }
 
-	h3
-	{
-		font-size: 130%;
-	}
+    h3
+    {
+        font-size: 130%;
+    }
 
-	.joueur img
-	{
-		width: inherit;
-	}
+    .joueur img
+    {
+        width: inherit;
+    }
 
-	body
-	{
-		background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401);
-	}
+    body
+    {
+        background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401);
+    }
 
-	.box_long_r
-	{
-		flex-direction: row;	
-		justify-content: space-around;
-		align-items: center;
-	}
+    .box_long_r
+    {
+        flex-direction: row;    
+        justify-content: space-around;
+        align-items: center;
+    }
 
