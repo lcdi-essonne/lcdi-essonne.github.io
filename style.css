@@ -101,10 +101,12 @@ h3
     text-align: center;
 }
 
-h3 strong, h2 strong, h2 strong
+h3 strong, h2 strong, h2 strong, h1, h2, h3
 {
-    font-weight : bolder;
+    font-weight : normal;
 }
+
+
 
 p, ul, ol
 {
@@ -119,7 +121,7 @@ p, ul, ol
 .bouton
 {   
     color: #1C1C1C;
-    border: 3px #1C1C1C outset;
+    border: 2px #1C1C1C outset;
     background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
     border-radius: 50px;
     box-shadow: 6px 6px 5px black;
@@ -132,9 +134,8 @@ p, ul, ol
 
 nav
 {
-    border: 3px grey outset;
+    border: 3px #1C1C1C outset;
     background-color: #DF7401;
-    border-radius: 10px;
     box-shadow: 6px 6px 5px black;  
 }
 
@@ -232,6 +233,15 @@ strong
     box-shadow: 12px 12px 8px black;
 }
 
+.logo
+{
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+    margin: auto;
+    max-width: 35px;
+}
+
 
 /*____________Media query__________*/
 
@@ -273,6 +283,7 @@ strong
     body
     {
         background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401);
+        top: 150px;
     }
 
     .box_long_r
@@ -282,3 +293,4 @@ strong
         align-items: center;
     }
 
+   
