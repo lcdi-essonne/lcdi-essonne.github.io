@@ -229,6 +229,7 @@ strong
 .effet img:hover
 {
     transform: scale(1.05);
+    box-shadow: 12px 12px 8px black;
 }
 
 
