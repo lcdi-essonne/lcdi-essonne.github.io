@@ -36,13 +36,12 @@ section
 
 img
 {
-	border: 3px grey outset;
-	border-radius: 25px;
+	border: 3px #1C1C1C outset;
+	border-radius: 10px;
 	box-shadow: 8px 8px 5px black;
-	padding: 10px;
 	margin: 10px;
-	background-color: #1C1C1C;
 	transition: 1s;
+	cursor:pointer;
 }
 
 .joueur
@@ -120,13 +119,15 @@ p, ul, ol
 .bouton
 {	
 	color: #1C1C1C;
-	border: 3px grey outset;
-	background-color: #FFBF00;
+	border: 3px #1C1C1C outset;
+	background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
 	border-radius: 50px;
 	box-shadow: 6px 6px 5px black;
 	padding: 10px;
 	margin: 10px;
-	transition: 1s;	
+	transition: 1s;
+	text-decoration:none;
+	cursor:pointer;
 }
 
 nav
@@ -205,7 +206,9 @@ nav li
 
 .bouton:hover
 {
-	background-color: #DF7401;
+	background:linear-gradient(to bottom, #DF7401 5%, #FFBF00 100%);
+	transform: scale(0.99);
+	box-shadow: none;
 }
 
 ul
@@ -225,7 +228,7 @@ strong
 
 .effet img:hover
 {
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 
