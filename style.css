@@ -46,7 +46,7 @@ img
 
 .joueur
 {
-    border: 3px grey outset;
+    border: 3px #1C1C1C outset;
     border-radius: 25px;
     box-shadow: 8px 8px 5px black;
     padding: 10px;
@@ -69,9 +69,8 @@ img
 
 #banniere
 {   
-    border: inherit;
-    box-shadow: inherit;
-    background-color: inherit;
+    border: none;
+    box-shadow: none;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
