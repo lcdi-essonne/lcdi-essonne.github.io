@@ -1,1 +1,1 @@
-https://lcdi-essonne.github.io/
+https://le-cercle-des-investigateurs.github.io/
