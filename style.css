@@ -333,7 +333,7 @@ strong
     body
     {
         background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401);
-        top: 150px;
+        top: 250px;
     }
 
     .box_long_r
@@ -346,5 +346,10 @@ strong
     p, ul, ol
     {
         font-size: 150%;
+    }
+
+    li
+    {
+        margin-top: 20px;
     }
 }
