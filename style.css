@@ -105,8 +105,6 @@ h3 strong, h2 strong, h2 strong, h1, h2, h3
     font-weight : normal;
 }
 
-
-
 p, ul, ol
 {
     font-size: 120%;
@@ -115,20 +113,6 @@ p, ul, ol
 #accueil
 {
     text-align: center;
-}
-
-.bouton
-{   
-    color: #1C1C1C;
-    border: 2px #1C1C1C outset;
-    background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
-    border-radius: 50px;
-    box-shadow: 6px 6px 5px black;
-    padding: 10px;
-    margin: 10px;
-    transition: 1s;
-    text-decoration:none;
-    cursor:pointer;
 }
 
 nav
@@ -143,8 +127,41 @@ a
     color: #1C1C1C;
 }
 
+.mentions
+{
+    margin-top: 35px;
+    text-align: center;
+}
 
-.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation
+nav li
+{
+    padding-left: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ol, p, ul
+{
+    text-align: left;
+}
+
+strong
+{
+    font-weight : normal;
+}
+
+.effet img:hover
+{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 8px black;
+}
+
+/*__________Box____________*/
+
+.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul
 {
     display: flex;  
     flex-wrap: wrap;    
@@ -186,22 +203,53 @@ a
     align-items: center;
 }
 
-.ludo, .navigation
+.ludo, .navigation, #page-nav input:checked ~ ul
 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.mentions
+/*__________Logo____________*/
+
+.logo, .tourne
 {
-    margin-top: 35px;
-    text-align: center;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+    margin: auto;    
 }
 
-nav li
+.logo
 {
-    padding-left: 10px;
+    max-width: 35px;
+}
+
+.tourne
+{
+    max-width: 20px;
+    transition: 5s;
+}
+
+.tourne:hover
+{
+    transform: rotate(360deg);
+}
+
+/*__________Boutons____________*/
+
+.bouton
+{   
+    color: #1C1C1C;
+    border: 2px #1C1C1C outset;
+    background:linear-gradient(to bottom, #FFBF00 5%, #DF7401 100%);
+    border-radius: 50px;
+    box-shadow: 6px 6px 5px black;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+    text-decoration:none;
+    cursor:pointer;
 }
 
 .bouton:hover
@@ -211,34 +259,40 @@ nav li
     box-shadow: none;
 }
 
-ul
+/*__________Burger____________*/
+
+#page-nav ul
 {
-    list-style-type: none;
+    display: none;
+    border: 1px #1C1C1C outset;
+    border-radius: 5px;
+    box-shadow: 8px 8px 5px black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F7BE81;    
 }
 
-ol, p, ul
+.no_und
 {
-    text-align: left;
+    text-decoration:none;
 }
 
-strong
+#burger
 {
-    font-weight : normal;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    margin: auto;    
 }
 
-.effet img:hover
+label
 {
-    transform: scale(1.05);
-    box-shadow: 12px 12px 8px black;
+    font-size: 3em;
 }
 
-.logo
+#hamburger
 {
-    border-radius: none;
-    border: none;
-    box-shadow: none;
-    margin: auto;
-    max-width: 35px;
+  display: none;
 }
 
 
@@ -257,6 +311,7 @@ strong
     .effet img:hover
     {
         transform: inherit;
+        box-shadow: 8px 8px 5px black;
     }
 
     h1
@@ -266,12 +321,12 @@ strong
 
     h2, #accueil
     {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     h3
     {
-        font-size: 130%;
+        font-size: 170%;
     }
 
     .joueur img
@@ -292,4 +347,8 @@ strong
         align-items: center;
     }
 
-   
+    p, ul, ol
+    {
+        font-size: 150%;
+    }
+}
