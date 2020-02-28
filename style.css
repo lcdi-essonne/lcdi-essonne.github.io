@@ -363,4 +363,9 @@ strong
     {
         margin-top: 20px;
     }
+
+    #css
+    {
+        max-width: 88px;
+    }
 }
