@@ -212,10 +212,7 @@ strong
 
 #page-nav input:checked ~ ul
 {
-   flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-height: 200px;
+    flex-direction: column;
     overflow: scroll;
 }
 
@@ -223,10 +220,10 @@ strong
 
 .logo, .tourne
 {
-    border-radius: none;
-    border: none;
-    box-shadow: none;
-    margin: auto;    
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: inherit;
+    margin: inherit;    
 }
 
 .logo
@@ -305,10 +302,6 @@ strong
   display: none;
 }
 
-#page-nav input:checked ~ ul
-{
-    width: 100%;
-}
 
 /*____________Media query__________*/
 
