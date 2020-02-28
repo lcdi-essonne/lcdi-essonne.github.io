@@ -203,11 +203,20 @@ strong
     align-items: center;
 }
 
-.ludo, .navigation, #page-nav input:checked ~ ul
+.ludo, .navigation
 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+#page-nav input:checked ~ ul
+{
+   flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 200px;
+    overflow: scroll;
 }
 
 /*__________Logo____________*/
@@ -273,6 +282,11 @@ strong
     background-color: #F7BE81;    
 }
 
+#page-nav ul li
+{
+    padding: 10px;
+}
+
 .no_und
 {
     text-decoration:none;
@@ -291,6 +305,10 @@ strong
   display: none;
 }
 
+#page-nav input:checked ~ ul
+{
+    width: 100%;
+}
 
 /*____________Media query__________*/
 
