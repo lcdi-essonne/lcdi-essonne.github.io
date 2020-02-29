@@ -161,7 +161,7 @@ strong
 
 /*__________Box____________*/
 
-.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul
+.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul, .mode
 {
     display: flex;  
     flex-wrap: wrap;    
@@ -174,7 +174,7 @@ strong
     margin-top: 20px;
 }
 
-.box
+.box, .mode
 {
     flex-direction: row;
     justify-content: center;
@@ -226,10 +226,16 @@ strong
     margin: inherit;    
 }
 
-.logo
+.logo, .mode img
 {
     max-width: 35px;
     border-radius: 0px;
+}
+
+.mode img
+{
+    box-shadow: inherit;
+    border:inherit;
 }
 
 .tourne
