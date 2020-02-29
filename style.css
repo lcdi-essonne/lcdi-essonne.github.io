@@ -161,7 +161,7 @@ strong
 
 /*__________Box____________*/
 
-.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul, .mode
+.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul, .mode, .box_w_2
 {
     display: flex;  
     flex-wrap: wrap;    
@@ -185,6 +185,14 @@ strong
 {
     flex-direction: row;    
     justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.box_w_2
+{
+    flex-direction: row;    
+    justify-content: space-around;
     align-items: center;
     max-width: 500px;
 }
