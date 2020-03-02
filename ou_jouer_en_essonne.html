@@ -29,7 +29,7 @@
 
     <body>
         <header>
-            <nav>
+            <nav id="navigation">
                 <ul class="box_long">
                     <li><a href="index.html" title="information au sujet de l'association"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b>LCDI</b></div></a></li>
                     <li><a href="https://lecercle.xooit.fr/index.php" target="blank" title="Forum de LCDI"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> Forum</div></a></li>
@@ -41,10 +41,24 @@
             </nav>
         </header>
 
+        <div id="burger">
+            <div id="page-nav">
+                <label for="hamburger" title="Chercher sur la page"><img src="logo/menu_noir.png" class="logo" alt="menu"></label>
+                <input type="checkbox" id="hamburger"/>
+                <ul>
+                    <li><a href="#navigation" class="no_und">Navigation</a></li>
+                    <li><a href="#jouer" class="no_und">Où jouer</a></li>
+                    <li><a href="#horaires" class="no_und">Les Horaires</a></li>
+                    <li><a href="#rejoindre" class="no_und">Comment nous rejoindre ?</a></li>
+                    <li><a href="#acces" class="no_und">Accès handicapé</a></li>
+                </ul>
+            </div><!--page-nav-->
+        </div><!--burger-->
+
         <section class="box_long">
             <div class="elem_1">
                 <div class="box_w">
-                    <h1><strong>Où jouer</strong> en <strong>Essonne</strong> ?</h1>
+                    <h1 id="jouer"><strong>Où jouer</strong> en <strong>Essonne</strong> ?</h1>
                 
                     <p>
                         Vous ne savez pas <strong>où jouer</strong> à vos <strong>jeux</strong> préférés. Vous cherchez un <strong>club de jeux de société</strong> en <strong>Essonne</strong> ? <strong>Le Cercle Des Investigateurs</strong> à <strong>Saint Michel Sur Orge</strong> n'attend plus que vous !
@@ -70,7 +84,7 @@
         <section class="box_long_r">
             <div class="box_w">
                 <div class="elem_1">
-                    <h2>Les horaires du <strong>club</strong> :</h2>
+                    <h2 id="horaires">Les horaires du <strong>club</strong> :</h2>
                     <article>
                         <h3>Tous les dimaches, les portes du Cerle des Investigateurs sont grandes ouvertes aux aventuriers.</h3>
                         <p>
@@ -99,7 +113,7 @@
         <section class="box_long">
             <div class="box_w">
                 <div class="elem_1">
-                    <h2>Comment nous rejoindre à l'<strong>association</strong> ?</h2>
+                    <h2 id="rejoindre">Comment nous rejoindre à l'<strong>association</strong> ?</h2>
                     <article>
                         <h3>Acceptez votre destinée et trouvez <strong>Le Cercle des Investigateurs</strong> :</h3>
 
@@ -188,7 +202,7 @@
 
         <section class="box_long">
             <div class="box_w">
-                <h2>Accés aux personnes à mobilité réduite :</h2>
+                <h2 id="acces">Accés aux personnes à mobilité réduite :</h2>
                 <article>
                     <h3>Pour certains aventuriers il reste des obtacles à franchir :</h3>
                     <p>La commune de Saint Michel sur Orge à permis la mise aux normes du bâtiment. Nous sommes heureux de vous annoncer que le local est maintenant accessible en fauteuil roulant. C'est une nouveauté de l'an 20 ! 

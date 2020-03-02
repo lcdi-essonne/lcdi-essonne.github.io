@@ -6,25 +6,16 @@
     font-style: normal;
 }
 
-header
-{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
 body
 {
-    background-image: radial-gradient(ellipse at center, #F7BE81, #DF7401, #1C1C1C);
+    background-image: radial-gradient(ellipse at center, #F7BE81, #FF8000, #3B0B0B);
     font-size: 1em;
     text-align: center;
     width: auto;
     margin: auto;
     overflow: scroll;
     word-wrap: break-word;
-    font-family: 'Crimson Pro', 'Crimson Text', 'Slabo 27px', serif;
-    position: relative;
-    top: 50px;
+    font-family: 'Crimson Pro', 'Crimson Text', 'Slabo 27px', serif;    
 }
 
 section
@@ -32,6 +23,7 @@ section
     padding: 10px;
     margin: 10px;
     text-align: center;
+    margin-top: 100px;   
 }
 
 img
@@ -41,7 +33,6 @@ img
     box-shadow: 8px 8px 5px black;
     margin: 10px;
     transition: 1s;
-    cursor:pointer;
 }
 
 .joueur
@@ -193,14 +184,14 @@ strong
 {
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .box_long_r
 {
     flex-direction: row-reverse;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ludo, .navigation
@@ -214,6 +205,14 @@ strong
 {
     flex-direction: column;
     overflow: scroll;
+}
+
+#page-nav_jeux input:checked ~ ul
+{
+    flex-direction: row;
+    overflow: scroll;
+    max-height: 100%;
+    width: 100%;
 }
 
 /*__________Logo____________*/
@@ -290,17 +289,13 @@ strong
     padding: 10px;
 }
 
-.no_und
-{
-    text-decoration:none;
-}
-
 #burger
 {
     position: fixed;
     top: 20px;
     left: 20px;
-    margin: auto;    
+    margin: auto;
+    z-index: 3;    
 }
 
 #hamburger

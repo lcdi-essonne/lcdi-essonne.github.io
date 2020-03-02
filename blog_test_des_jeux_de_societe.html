@@ -29,7 +29,7 @@
 
     <body>
         <header>
-            <nav>
+            <nav id="navigation">
                 <ul class="box_long">
                     <li><a href="index.html" title="information au sujet de l'association"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b>LCDI</b></div></a></li>
                     <li><a href="https://lecercle.xooit.fr/index.php" target="blank" title="Forum de LCDI"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> Forum</div></a></li>
@@ -43,27 +43,20 @@
 
         <div id="burger">
             <div id="page-nav">
-                <label for="hamburger" title="Chercher sur la page"><img src="logo/menu.png" class="logo" alt="menu"></label>
+                <label for="hamburger" title="Chercher sur la page"><img src="logo/menu_noir.png" class="logo" alt="menu"></label>
                 <input type="checkbox" id="hamburger"/>
-                <ul>
-                    <li><b>Jeux débutants :</b></li>
-                    <li><a href="#dice_forge" class="no_und">Dice forge</a></li>
-                    <li><a href="#foodies" class="no_und">Foodies</a></li>
-                    <li><a href="#galerapagos" class="no_und">Galerapagos</a></li>
-                    <li><a href="#mind" class="no_und">The mind</a></li>
-                    <li><b>Jeux confirmés :</b></li>
-                     <li><a href="#fallout" class="no_und">Fallout shelter</a></li>
-                    <li><a href="#hanabi" class="no_und">Hanabi</a></li>
-                    <li><b>Jeux experts :</b></li>
-                    <li><a href="#andor" class="no_und">Andor</a></li>
-                    <li><a href="#wq" class="no_und">Warhammer quest</a></li>
+                <ul>                   
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#blog">Blog des JdS</a></li>
+                    <li><a href="#legende">Légende</a></li>
+                    <li><a href="#find">Chercher un jeu</a></li>
                 </ul>
             </div><!--page-nav-->
         </div><!--burger-->
 
-        <section class="box_long">            
+        <section class="box_long">
             <div class="box_w">
-                <h1><strong>Blog des jeux de société</strong></h1>            
+                <h1 id="blog"><strong>Blog des jeux de société</strong></h1>
                 <p>
                     Tous les mois des dizaines de jeux de sociétè sont édités. Pour nous qui aimons jouer, le choix est difficile, en effet le budget de l'association est limité.
                 </p>
@@ -72,11 +65,11 @@
                 </p>
                 <p>
                     Vous trouverez ici une description des jeux que l'on souhaite ou que l'on aime voir dans la ludothèque de LCDI.
-                </p>                        
+                </p>
             </div>
 
             <div class="box_w">
-                <h3>Légende :</h3>
+                <h3 id="legende">Légende :</h3>
                 <p>
                     Les jeux sont classés selon le public auquel ils semblent s'adresser. Ce classement est subjectif.
                 </p>
@@ -498,7 +491,7 @@
                     </p>
                     <h3>Mécaniques du jeux</h3>
                     <p>
-                       On peut y jouer en mode campagne ou one shoot. Les joueurs incarnent des héros. En explorant des donjons et en réalisant des quêtes ils vont ammasser des trésors et des points d'XP qu'ils pourront dépenser pour améliorer leur personnage. Les héros doivent combattre des monstres, tuer des boss, ramener un objet de quête, survivre aux pièges du donjon...<br/>                      
+                       On peut y jouer en mode campagne ou one shoot. Les joueurs incarnent des héros. En explorant des donjons et en réalisant des quêtes ils vont ammasser des trésors et des points d'XP qu'ils pourront dépenser pour améliorer leur personnage. Les héros doivent combattre des monstres, tuer des boss, ramener un objet de quête, survivre aux pièges du donjon...
                     </p>
 
                     <p>
@@ -534,7 +527,42 @@
                         </figcaption>
                     </figure>
                 </aside>
-            </div>            
+            </div>
+        </section>
+        
+        <section id="find">
+            <h2>Chercher un jeu :</h2>
+            <div class="box_long">
+                <div class="joueur">
+                    <div>
+                        <h3>Jeux débutants :</h3>
+                        <ul>
+                            <li><a href="#dice_forge">Dice forge</a></li>
+                            <li><a href="#foodies">Foodies</a></li>
+                            <li><a href="#galerapagos">Galerapagos</a></li>
+                            <li><a href="#mind">The mind</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="joueur">
+                    <div>
+                        <h3>Jeux confirmés :</h3>
+                        <ul>
+                            <li><a href="#fallout">Fallout shelter</a></li>
+                            <li><a href="#hanabi">Hanabi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="joueur">
+                    <div>
+                        <h3>Jeux experts :</h3>
+                        <ul>
+                            <li><a href="#andor">Andor</a></li>
+                            <li><a href="#wq">Warhammer quest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>

@@ -29,7 +29,7 @@
 
     <body>
         <header>
-            <nav>
+            <nav id="navigation">
                 <ul class="box_long">
                     <li><a href="index.html" title="information au sujet de l'association"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b>LCDI</b></div></a></li>
                     <li><a href="https://lecercle.xooit.fr/index.php" target="blank" title="Forum de LCDI"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> Forum</div></a></li>
@@ -41,10 +41,22 @@
             </nav>
         </header>
 
+        <div id="burger">
+            <div id="page-nav">
+                <label for="hamburger" title="Chercher sur la page"><img src="logo/menu_noir.png" class="logo" alt="menu"></label>
+                <input type="checkbox" id="hamburger"/>
+                <ul>
+                    <li><a href="#navigation" class="no_und">Navigation</a></li>
+                    <li><a href="#ludo" class="no_und">La Ludothèque de LCDI</a></li>
+                    <li><a href="#joueurs" class="no_und">Les Ludothèques des joueurs</a></li>
+                </ul>
+            </div><!--page-nav-->
+        </div><!--burger-->
+
         <section>
             <div class="box_long_r">                
                 <div class="box_w">
-                    <h1>La <strong>ludothèque</strong> de l'<strong>association</strong> :</h1>
+                    <h1 id="ludo">La <strong>ludothèque</strong> de l'<strong>association</strong> :</h1>
                     <p>
                         Rejoignez nous à Saint Michel sur Orge (91) pour profiter de notre <strong>ludothèque</strong>. La liste de nos jeux à été mise à jour le 16/02/20.
                     </p>
@@ -208,7 +220,7 @@
         <section>
             <div class="box">
                 <div class="box_w">
-                    <h2><strong>Ludothèque</strong> de quelques joueurs et joueuses de l'<strong>association</strong> :</h2>
+                    <h2 id="joueurs"><strong>Ludothèque</strong> de quelques joueurs et joueuses de l'<strong>association</strong> :</h2>
                     <p>
                         Sur le forum de l'<strong>association</strong>, certains joueurs ont fait l'inventaire de leur <strong>ludothèque</strong> personnelle. Ils ont ainsi répertorié tous leurs <strong>jeux</strong>. Suivez les liens pour découvrir leurs richesses ludiques.
                     </p>
