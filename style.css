@@ -6,24 +6,30 @@
     font-style: normal;
 }
 
+section
+{
+    padding-top: 100px;
+}
+
+header
+{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
 body
 {
+    margin: auto; 
+    text-align: center;
     background-image: radial-gradient(ellipse at center, #F7BE81, #FF8000, #610B0B);
     font-size: 1em;
     text-align: center;
     width: auto;
-    margin: auto;
     overflow: scroll;
     word-wrap: break-word;
     font-family: 'Crimson Pro', 'Crimson Text', 'Slabo 27px', serif;    
-}
-
-section
-{
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    margin-top: 100px;   
 }
 
 img
@@ -371,4 +377,9 @@ strong
     {
         margin-top: 20px;
     }
+
+    section
+{
+    padding-top: 150px;
+}
 }
