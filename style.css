@@ -35,6 +35,11 @@ img
     transition: 1s;
 }
 
+.transparent
+{
+    background-color: #F7BE81;
+}
+
 .joueur
 {
     border: 3px #1C1C1C outset;
