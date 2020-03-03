@@ -121,7 +121,8 @@ nav
 {
     border: 3px #1C1C1C outset;
     background-color: #DF7401;
-    box-shadow: 6px 6px 5px black;  
+    box-shadow: 6px 6px 5px black;
+    max-height: 75px;   
 }
 
 a
@@ -214,11 +215,6 @@ strong
     align-items: center;
 }
 
-nav
-{
-    max-height: 75px;
-}
-
 .page-nav input:checked ~ ul, #page-nav_p input:checked ~ ul
 {
     flex-direction: column;
@@ -286,12 +282,20 @@ nav
 
 .page-nav ul, #page-nav_p ul
 {
-    display: none;
-    background-color: #F7BE81;
+    display: none;    
     border: 2px #1C1C1C outset;
     box-shadow: 6px 6px 5px black;
 }
 
+#page-nav_p ul
+{
+    background-color: #DF7401;
+}
+
+.page-nav ul
+{
+    background-color: #F7BE81;
+}
 
 .page-nav ul li, #page-nav_p ul li
 {
@@ -321,7 +325,7 @@ nav
 }
 
 #burger_p
-{
+{    
     position: fixed;
     top: 20px;
     left: 20px;
