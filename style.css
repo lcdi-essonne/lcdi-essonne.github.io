@@ -333,7 +333,7 @@ strong
     z-index: 3;
 }
 
-.hamburger_tests, #hamburger_p, .hamburger_lcdi, .hamburger_ludo, .hamburger_acces,
+.hamburger_tests, #hamburger_p, .hamburger_lcdi, .hamburger_ludo, .hamburger_acces, .hamburger_forum, .hamburger_mentions
 {
   display: none;
 }
