@@ -163,10 +163,10 @@ strong
 
 /*__________Box____________*/
 
-.box, .box_long, .box_long_r, .ludo, .bouton_box, .joueur, .navigation, .box_w, #page-nav, #page-nav input:checked ~ ul, .mode
+.box, .box_long, .box_long_r, .ludo, .mode, .bouton_box, .joueur, .navigation, .box_w, .page-nav input:checked ~ ul, #page-nav_p input:checked ~ ul
 {
-    display: flex;  
-    flex-wrap: wrap;    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bouton_box
@@ -214,19 +214,17 @@ strong
     align-items: center;
 }
 
-#page-nav input:checked ~ ul
+nav
+{
+    max-height: 75px;
+}
+
+.page-nav input:checked ~ ul, #page-nav_p input:checked ~ ul
 {
     flex-direction: column;
     overflow: scroll;
 }
 
-#page-nav_jeux input:checked ~ ul
-{
-    flex-direction: row;
-    overflow: scroll;
-    max-height: 100%;
-    width: 100%;
-}
 
 /*__________Logo____________*/
 
@@ -286,43 +284,85 @@ strong
 
 /*__________Burger____________*/
 
-#page-nav ul
+.page-nav ul, #page-nav_p ul
 {
     display: none;
-    border: 1px #1C1C1C outset;
-    border-radius: 5px;
-    box-shadow: 8px 8px 5px black;
-    padding: 10px;
-    margin: 10px;
-    background-color: #F7BE81;    
+    background-color: #F7BE81;
+    border: 2px #1C1C1C outset;
+    box-shadow: 6px 6px 5px black;
 }
 
-#page-nav ul li
+
+.page-nav ul li, #page-nav_p ul li
 {
     padding: 10px;
 }
 
-#burger
+.burger
+{
+    position: relative;
+    top: 0px;
+    margin: auto;
+    z-index: 3;
+}
+
+.page-nav input:checked ~ ul, #page-nav_p input:checked ~ ul
+{
+    position: fixed;
+    top: 75px;
+    margin: auto;
+    z-index: 3;
+}
+
+#page-nav_p input:checked ~ ul li
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#burger_p
 {
     position: fixed;
     top: 20px;
     left: 20px;
     margin: auto;
-    z-index: 3;    
+    z-index: 3;
 }
 
-#hamburger
+.hamburger_tests, #hamburger_p, .hamburger_lcdi, .hamburger_ludo, .hamburger_acces,
 {
   display: none;
 }
+
+#page-nav_p
+    {
+        display: none;
+    }
+
+.page-nav input
+    {
+        display: none;
+    }
+
 
 
 /*____________Media query__________*/
 
 
-
 @media all and (max-width: 799px)
 {   
+    .page-nav input:checked ~ ul, .page-nav input, #page-nav_p input, nav
+    {
+        display: none;
+    }
+   
+
+    #page-nav_p
+    {
+        display: flex;
+        flex-wrap: 
+    }
+
     #banniere, img
     {
         width: 400px;
@@ -379,7 +419,14 @@ strong
     }
 
     section
-{
-    padding-top: 150px;
-}
+    {
+        padding-top: 25px;
+    }
+
+    nav
+    {
+        max-height: inherit;
+    }
+    
+
 }
