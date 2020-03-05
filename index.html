@@ -34,7 +34,8 @@
         <meta property="og:site_name" content="Le Cercle Des Investigateurs"/>
     </head>
 
-    <body>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        
         <header>
             <nav id="navigation">
                 <ul class="box_long">
@@ -126,13 +127,13 @@
 
                 </ul>
             </nav>
-        </header>
-
+        </header>        
+    
         <div id="burger_p">
             <div id="page-nav_p">
                 <label for="hamburger_p" title="Menu"><img src="logo/menu_noir.png" class="logo" alt="Menu"></label>
                 <input type="checkbox" id="hamburger_p"/>
-                <ul>
+                <ul itemprop="breadcrumb">
                     <li><a href="index.html"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b>LCDI</b></div></a></li>
                     <li><a href="https://lecercle.xooit.fr/index.php" target="blank"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> Forum</div></a></li>
                     <li><a href="ludotheque_saint_michel_sur_orge.html"><div class="box_long"><img src="logo/meeple.png" class="logo" alt="Ludothèque"> Ludothèque</div></a></li>
@@ -142,210 +143,212 @@
                 </ul>
             </div><!--page-nav-->
         </div><!--burger-->
-    
-        <section id="lcdi">
-            <h1><strong>Le Cercle des Investigateurs</strong></h1>
 
-            <p id="accueil">
-                <strong>Association</strong> qui promeut le <strong>jeu de société</strong> depuis 2009<br/>à <strong>Saint Michel sur Orge</strong> (<strong>91</strong>).
-            </p>
-                <ul class="box_long">
-                    <li class="ruben">Jeux de cartes</li>
-                    <li class="ruben">jeux de figurines</li>
-                    <li class="ruben">Jeux de plateau</li>
-                    <li class="ruben">Jeux de rôle</li>
-                </ul>
-            <div class="box_long">
-                <p class="box">
-                    <img src="club_jeux_societe_adulte_91/lcdi.jpg" id="banniere" alt="Association LCDI">
-                </p><!--class="box"-->
-            </div><!--class="box_long"-->
-        </section>
+        <div itemprop="mainEntity" itemscope itemtype="http://schema.org/Organization">
+            <section id="lcdi">
+                <h1><strong itemprop="name">Le Cercle des Investigateurs</strong></h1>
 
-        <section id="club" class="box_long">
-            <div class="elem_1">
-                <div class="box_w">
-                    <h2>Notre <strong>club de jeux</strong> :</h2>
-                    <article>
-                        <h3><strong>Le Cercle des Investigateurs</strong> :</h3>
-                        <p>
+                <p id="accueil">
+                    <strong>Association</strong> qui promeut le <strong itemprop="knowsAbout">jeu de société</strong> depuis 2006<br/>à <strong itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Saint Michel sur Orge</span></strong> <strong itemprop="areaServed">Essonne (91)</strong>.
+                </p>
+                    <ul class="box_long" itemprop="knowsAbout">
+                        <li class="ruben">Jeux de cartes</li>
+                        <li class="ruben">jeux de figurines</li>
+                        <li class="ruben">Jeux de plateau</li>
+                        <li class="ruben">Jeux de rôle</li>
+                    </ul>
+                <div class="box_long">
+                    <p class="box">
+                        <img itemprop="image" src="club_jeux_societe_adulte_91/lcdi.jpg" id="banniere" alt="Association LCDI">
+                    </p><!--class="box"-->
+                </div><!--class="box_long"-->
+            </section>
 
-                            <strong>Le Cercle Des Investigateurs</strong> (<strong>LCDI</strong>) à été crée en 2006 et mis en sommeil en 2008. L'<strong>association</strong> à été ré-ouverte en septembre 2009 par d'anciens membres passionnés de <strong>jeux de société</strong>. Les objectifs de <strong>LCDI</strong> ont alors été revus :
-                        </p>
+            <section id="club" class="box_long">
+                <div class="elem_1">
+                    <div class="box_w">
+                        <h2>Notre <strong>club de jeux</strong> :</h2>
+                        <article itemprop="description">
+                            <h3><strong>Le Cercle des Investigateurs</strong> :</h3>
+                            <p>
 
-                        <ul>
-                            <li>jouer avec de nouveaux joueurs, de nouvelles joueuses de divers horizons ;</li>
-                            <li>créer une communauté solide et conviviale autour du <strong>jeu de société</strong> ;</li>
-                            <li>découvrir et faire découvrir de nouveaux <strong>jeux</strong> ;</li>
-                            <li>organiser des événements ludiques : des tournois, des concours, des rencontres avec des auteurs, des éditeurs de jeux... ;</li>
-                            <li>mettre en commun les <strong>jeux</strong> et les décors des joueurs.</li>
-                        </ul>
-                    </article>
-                </div><!--box_w-->
-            </div><!--elem 1-->
+                                <strong>Le Cercle Des Investigateurs</strong> (<strong>LCDI</strong>) à été crée en <span itemprop="foundingDate">2006</span> et mis en sommeil en 2008. L'<strong>association</strong> à été ré-ouverte en septembre 2009 par d'anciens membres passionnés de <strong>jeux de société</strong>. Les objectifs de <strong itemprop="alternateName">LCDI</strong> ont alors été revus :
+                            </p>
 
-            <div class="elem_2">
-                <aside>
-                    <figure>
-                        <a href="jeux_societe_adulte/jeux_de_plateau/root.jpg" class="effet"><img src="jeux_societe_adulte/jeux_de_plateau/root_600.jpg" alt="Le jeu Root"></a>
-                        <figcaption>
-                            Le <strong>jeu</strong> Root
-                        </figcaption>
-                    </figure>
-                </aside>
-            </div><!--elem 2-->
-        </section>
+                            <ul>
+                                <li>jouer avec de nouveaux joueurs, de nouvelles joueuses de divers horizons ;</li>
+                                <li>créer une communauté solide et conviviale autour du <strong>jeu de société</strong> ;</li>
+                                <li>découvrir et faire découvrir de nouveaux <strong>jeux</strong> ;</li>
+                                <li>organiser des événements ludiques : des tournois, des concours, des rencontres avec des auteurs, des éditeurs de jeux... ;</li>
+                                <li>mettre en commun les <strong>jeux</strong> et les décors des joueurs.</li>
+                            </ul>
+                        </article>
+                    </div><!--box_w-->
+                </div><!--elem 1-->
 
-        <section id="sirenes" class="box_long_r">
-            <div class="elem_1">
-                <div class="box_w">
-                    <h2>La salle des sirènes à <strong>Saint Michel sur Orge</strong> :</h2>
-                    <article>
-                        <h3>Nous avons beaucoup de chance :</h3>
-                        <p>
-                             En 2019, la commune de <strong>Saint Michel sur Orge</strong> a fait rénover le batiment. Les travaux ont pris fin en novembre. Les locaux sont spacieux, modernes, confortables, propres et accessibles aux personnes en fauteuil roulant.
-                        </p>
-                        <p>
-                            Bref, le cadre est idéal pour pratiquer notre activité préférée dans le calme et rencontrer des gens ouverts et curieux qui seront heureux de découvrir le dernier jeux en anglais et aux règles compliquées que vous avez ramené.
-                        </p>
-                    </article>
-                </div><!--box_w-->
-            </div><!--elem_1-->
-            
-            <figure>
-                <a href="club_jeux_societe_adulte_91/tables.JPG" class="effet"><img src="club_jeux_societe_adulte_91/tables_600.jpg" alt="Salle de l'association à Saint Michel sur Orge"></a>
-                <figcaption>
-                    Salle des sirènes côté droit
-                </figcaption>
-            </figure>
+                <div class="elem_2">
+                    <aside>
+                        <figure>
+                            <a itemprop="image" href="jeux_societe_adulte/jeux_de_plateau/root.jpg" class="effet"><img src="jeux_societe_adulte/jeux_de_plateau/root_600.jpg" alt="Le jeu Root"></a>
+                            <figcaption>
+                                Le <strong>jeu</strong> Root
+                            </figcaption>
+                        </figure>
+                    </aside>
+                </div><!--elem 2-->
+            </section>
 
-            <figure>
-                <a href="club_jeux_societe_adulte_91/fond.JPG" class="effet"><img src="club_jeux_societe_adulte_91/fond_600.jpg" alt="Salle de l'association à Saint Michel sur Orge"></a>
-                <figcaption>
-                    Salle des sirènes côté gauche
-                </figcaption>
-            </figure>
-
-            <figure>
-                <a href="club_jeux_societe_adulte_91/salle_commune.JPG" class="effet"><img src="club_jeux_societe_adulte_91/salle_commune_600.jpg" alt="La salle commune des associations de Saint Michel Sur Orge"></a>
-                <figcaption>
-                    La salle commune à toutes les <strong>associations</strong>
-                </figcaption>
-            </figure>
-            
-        </section>
-
-        <section id="jeux" class="box_long">
-            <div class="elem_1">
-                <div class="box_w">
-                    <h2>Nos <strong>jeux de société</strong> :</h2>
-                    <article>
-                        <h3>A quoi jouons-nous ?</h3>
-                        <p>
-                            Nous aimons particulièrement les <strong>jeux</strong> dits experts, les <strong>jeux de société</strong> adultes. Il nous arrive quand même régulièrement de jouer à des petits <strong>jeux</strong> détente.
-                        </p>
-                        <p>
-                            En nous rejoignant, que vous soyez connaisseurs ou novices, que vous aimiez les wargames ou les jeux de cartes plus tanquilles, les jeux cubes en bois ou vivre des aventures en incarnant un personnage, vous vous amuserez ! Le maître mot est la convivialité.
-                        </p>
-                        <p>
-                            Beaucoup de joueurs apportent avec eux une sélection de leur propre ludothèque. L'armoire à <strong>jeux</strong> de l'<strong>association</strong> ne représente qu'une petite partie de nos richesses ludiques !
-                        </p>
-
-                        <p class="bouton_box">
-                        <a href="ludotheque_saint_michel_sur_orge.html" class="bouton" title= "Ludothèque de LCDI">Ludothèque</a>
-                    </p>
-                    </article>
-                </div><!--box_w-->
-            </div><!--elem_1-->
-
-            <div class="elem_2">
-                <aside>
-                    <figure>
-                        <a href="jeux_societe_adulte/jeux_de_cartes/fate_of_indines.jpg" class="effet"><img src="jeux_societe_adulte/jeux_de_cartes/fate_of_indines_600.jpg" alt="Armoire à jeux"></a>
-                        <figcaption>
-                             BattleCON : Fate of Indines
-                        </figcaption>
-                    </figure>
-                </aside>
-            </div><!--elem_2-->
-        </section>
-
-        <section id="partenariat" class="box_long">
-            <div class="box_long">
-                <h2>Partenariat :</h2>
-            </div><!--box_long-->
-
-            <div class="box_long">
-
-                <div class="box_long joueur">
-                    <div class="box_w">                            
+            <section id="sirenes" class="box_long_r">
+                <div class="elem_1">
+                    <div class="box_w">
+                        <h2>La salle des sirènes à <strong>Saint Michel sur Orge</strong> :</h2>
                         <article>
-                            <h3>Cellules grises :</h3>
+                            <h3>Nous avons beaucoup de chance :</h3>
                             <p>
-                                Cellules grises est une librairie du centre commercial Evry 2.
+                                 En 2019, la commune de <strong>Saint Michel sur Orge</strong> a fait rénover le batiment. Les travaux ont pris fin en novembre. Les locaux sont spacieux, modernes, confortables, propres et accessibles aux personnes en fauteuil roulant.
                             </p>
                             <p>
-                                La boutique propose un large choix de jeux de société. Les membres de notre association bénéficient d'une réduction de 10% sur leurs achats (hors livres) sur présentation de leur carte.
-                            </p>
-                            <p>
-                                <a href="https://www.cellulesgrises.com/" target="blank" class="bouton" title= "Boutique de jeux de société et librairie">Cellules grises</a>
+                                Bref, le cadre est idéal pour pratiquer notre activité préférée dans le calme et rencontrer des gens ouverts et curieux qui seront heureux de découvrir le dernier jeux en anglais et aux règles compliquées que vous avez ramené.
                             </p>
                         </article>
-                    </div><!--box_w-->                    
-                </div><!--box_long joueur-->
-
-                <div class="box_long joueur">
-                    <div class="box_w">                            
-                        <article>
-                            <h3>La tartine ludique :</h3>
-                            <p>
-                                Un restaurant bar à jeux de société ! 
-                            </p>
-                            <p>
-                                Partagez un moment conviviale en dégustant des produits locaux. Tartines à votre goût, charcuterie, fromage, boissons...
-                            </p>
-                            <p>
-                                Michèle et Manu vous conseillent sur la carte et les jeux. Ils vous aident à la mise en place et vous expliquent les règles. C'est un endroit très chaleureux.
-                            </p>
-                            <p>
-                                <a href="https://la-tartine-ludique.business.site/" target="blank" class="bouton" title= "Bar à jeux de société">La tartine ludique</a>
-                            </p>
-                        </article>                        
                     </div><!--box_w-->
-                </div><!--box_long joueur-->
+                </div><!--elem_1-->
+                
+                <figure>
+                    <a itemprop="image" href="club_jeux_societe_adulte_91/tables.JPG" class="effet"><img src="club_jeux_societe_adulte_91/tables_600.jpg" alt="Salle de l'association à Saint Michel sur Orge"></a>
+                    <figcaption>
+                        Salle des sirènes côté droit
+                    </figcaption>
+                </figure>
 
-                <div class="box_long joueur">
-                    <div class="box_w">
+                <figure>
+                    <a itemprop="image" href="club_jeux_societe_adulte_91/fond.JPG" class="effet"><img src="club_jeux_societe_adulte_91/fond_600.jpg" alt="Salle de l'association à Saint Michel sur Orge"></a>
+                    <figcaption>
+                        Salle des sirènes côté gauche
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <a itemprop="image" href="club_jeux_societe_adulte_91/salle_commune.JPG" class="effet"><img src="club_jeux_societe_adulte_91/salle_commune_600.jpg" alt="La salle commune des associations de Saint Michel Sur Orge"></a>
+                    <figcaption>
+                        La salle commune à toutes les <strong>associations</strong>
+                    </figcaption>
+                </figure>
+                
+            </section>
+
+            <section id="jeux" class="box_long">
+                <div class="elem_1">
+                    <div class="box_w" itemprop="owns">
+                        <h2>Nos <strong>jeux de société</strong> :</h2>
                         <article>
-                            <h3>Les jeux d'Ornicar :</h3>
+                            <h3>A quoi jouons-nous ?</h3>
                             <p>
-                                Une toute jeune boutique de jeux de société à Arpajon qui propose un espace de jeu pour les tester tous ! 
+                                Nous aimons particulièrement les <strong>jeux</strong> dits experts, les <strong>jeux de société</strong> adultes. Il nous arrive quand même régulièrement de jouer à des petits <strong>jeux</strong> détente.
                             </p>
                             <p>
-                                Les jeux d'Ornicar organisent aussi des animations et des concours de peinture de figurines.
+                                En nous rejoignant, que vous soyez connaisseurs ou novices, que vous aimiez les wargames ou les jeux de cartes plus tanquilles, les jeux cubes en bois ou vivre des aventures en incarnant un personnage, vous vous amuserez ! Le maître mot est la convivialité.
                             </p>
                             <p>
-                                <a href="https://www.facebook.com/lesjeuxdornicar/" target="blank" class="bouton" title= "Boutique de jeux de société et café ludique">Les jeux d'Ornicar</a>
+                                Beaucoup de joueurs apportent avec eux une sélection de leur propre ludothèque. L'armoire à <strong>jeux</strong> de l'<strong>association</strong> ne représente qu'une petite partie de nos richesses ludiques !
                             </p>
+
+                            <p class="bouton_box">
+                            <a href="ludotheque_saint_michel_sur_orge.html" class="bouton" title= "Ludothèque de LCDI">Ludothèque</a>
+                        </p>
                         </article>
-                        
                     </div><!--box_w-->
-                </div><!--box_long joueur-->
+                </div><!--elem_1-->
 
-                <div class="box_long joueur">
-                    <div class="box_w">
-                        <article>
-                            <h3>Association Ace :</h3>
-                            <p>
-                                Ace est une association de jeux de société d'Evry Courcouronne qui organise de nombreux tournois.
-                            </p>
-                            <p>
-                                <a href="http://ace-jdf.forumactif.org/" target="blank" class="bouton" title= "Association jeux et figurines">Association Ace</a>
-                            </p>
-                        </article>                        
-                    </div><!--box_w-->
-                </div><!--box_long joueur-->
-            </div><!--box_long-->
-        </section><!--box_long partenariat-->
-    </body>
+                <div class="elem_2">
+                    <aside>
+                        <figure>
+                            <a itemprop="image" href="jeux_societe_adulte/jeux_de_cartes/fate_of_indines.jpg" class="effet"><img src="jeux_societe_adulte/jeux_de_cartes/fate_of_indines_600.jpg" alt="Armoire à jeux"></a>
+                            <figcaption>
+                                 BattleCON : Fate of Indines
+                            </figcaption>
+                        </figure>
+                    </aside>
+                </div><!--elem_2-->
+            </section>
+
+            <section id="partenariat" class="box_long">
+                <div class="box_long">
+                    <h2>Partenariat :</h2>
+                </div><!--box_long-->
+
+                <div class="box_long">
+
+                    <div class="box_long joueur">
+                        <div class="box_w">                            
+                            <article>
+                                <h3>Cellules grises :</h3>
+                                <p>
+                                    Cellules grises est une librairie du centre commercial Evry 2.
+                                </p>
+                                <p>
+                                    La boutique propose un large choix de jeux de société. Les membres de notre association bénéficient d'une réduction de 10% sur leurs achats (hors livres) sur présentation de leur carte.
+                                </p>
+                                <p>
+                                    <a href="https://www.cellulesgrises.com/" target="blank" class="bouton" title= "Boutique de jeux de société et librairie">Cellules grises</a>
+                                </p>
+                            </article>
+                        </div><!--box_w-->                    
+                    </div><!--box_long joueur-->
+
+                    <div class="box_long joueur">
+                        <div class="box_w">                            
+                            <article>
+                                <h3>La tartine ludique :</h3>
+                                <p>
+                                    Un restaurant bar à jeux de société ! 
+                                </p>
+                                <p>
+                                    Partagez un moment conviviale en dégustant des produits locaux. Tartines à votre goût, charcuterie, fromage, boissons...
+                                </p>
+                                <p>
+                                    Michèle et Manu vous conseillent sur la carte et les jeux. Ils vous aident à la mise en place et vous expliquent les règles. C'est un endroit très chaleureux.
+                                </p>
+                                <p>
+                                    <a href="https://la-tartine-ludique.business.site/" target="blank" class="bouton" title= "Bar à jeux de société">La tartine ludique</a>
+                                </p>
+                            </article>                        
+                        </div><!--box_w-->
+                    </div><!--box_long joueur-->
+
+                    <div class="box_long joueur">
+                        <div class="box_w">
+                            <article>
+                                <h3>Les jeux d'Ornicar :</h3>
+                                <p>
+                                    Une toute jeune boutique de jeux de société à Arpajon qui propose un espace de jeu pour les tester tous ! 
+                                </p>
+                                <p>
+                                    Les jeux d'Ornicar organisent aussi des animations et des concours de peinture de figurines.
+                                </p>
+                                <p>
+                                    <a href="https://www.facebook.com/lesjeuxdornicar/" target="blank" class="bouton" title= "Boutique de jeux de société et café ludique">Les jeux d'Ornicar</a>
+                                </p>
+                            </article>
+                            
+                        </div><!--box_w-->
+                    </div><!--box_long joueur-->
+
+                    <div class="box_long joueur">
+                        <div class="box_w">
+                            <article>
+                                <h3>Association Ace :</h3>
+                                <p>
+                                    Ace est une association de jeux de société d'Evry Courcouronne qui organise de nombreux tournois.
+                                </p>
+                                <p>
+                                    <a href="http://ace-jdf.forumactif.org/" target="blank" class="bouton" title= "Association jeux et figurines">Association Ace</a>
+                                </p>
+                            </article>
+                        </div><!--box_w-->
+                    </div><!--box_long joueur-->
+                </div><!--box_long-->
+            </section><!--box_long partenariat-->
+        </div><!--itemscope itemtype="http://schema.org/Organization"-->
+    </body><!--itemscope itemtype="http://schema.org/WebPage"-->
 </html>
