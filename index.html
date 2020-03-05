@@ -133,13 +133,20 @@
             <div id="page-nav_p">
                 <label for="hamburger_p" title="Menu"><img src="logo/menu_noir.png" class="logo" alt="Menu"></label>
                 <input type="checkbox" id="hamburger_p"/>
-                <ul itemprop="breadcrumb">
-                    <li><a href="index.html"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b>LCDI</b></div></a></li>
-                    <li><a href="https://lecercle.xooit.fr/index.php" target="blank"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> Forum</div></a></li>
-                    <li><a href="ludotheque_saint_michel_sur_orge.html"><div class="box_long"><img src="logo/meeple.png" class="logo" alt="Ludothèque"> Ludothèque</div></a></li>
-                    <li><a href="blog_test_des_jeux_de_societe.html"><div class="box_long"><img src="logo/rouage.png" class="logo" alt="Tests"> Tests</div></a></li>
-                    <li><a href="ou_jouer_en_essonne.html"><div class="box_long"><img src="logo/acces.png" class="logo" alt="Accessibilité"> Accessibilité</div></a></li>
-                    <li><a href="mentions.html"><div class="box_long"><img src="logo/loupe.png" class="logo" alt="Mentions Légales"> Mentions Légales</div></a></li>
+                <ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="index.html"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b itemprop="name">LCDI</b></div></a><meta itemprop="position" content="1" /></li>
+
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lecercle.xooit.fr/index.php" target="blank"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> <span itemprop="name">Forum</span></div></a><meta itemprop="position" content="2" /></li>
+
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ludotheque_saint_michel_sur_orge.html"><div class="box_long"><img src="logo/meeple.png" class="logo" alt="Ludothèque"> <span itemprop="name">Ludothèque</span></div></a><meta itemprop="position" content="3" /></li>
+
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="blog_test_des_jeux_de_societe.html"><div class="box_long"><img src="logo/rouage.png" class="logo" alt="Tests"> <span itemprop="name">Tests</span></div></a><meta itemprop="position" content="4" /></li>
+
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ou_jouer_en_essonne.html"><div class="box_long"><img src="logo/acces.png" class="logo" alt="Accessibilité"> <span itemprop="name">Accessibilité</span></div></a><meta itemprop="position" content="5" /></li>
+
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="mentions.html"><div class="box_long"><img src="logo/loupe.png" class="logo" alt="Mentions Légales"> <span itemprop="name">Mentions Légales</span></div></a><meta itemprop="position" content="6" /></li>
+
                 </ul>
             </div><!--page-nav-->
         </div><!--burger-->
