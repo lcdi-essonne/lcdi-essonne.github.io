@@ -154,44 +154,47 @@
         <div itemprop="mainEntity" itemscope itemtype="http://schema.org/Organization">
             <section id="jouer" class="box_long">
                 <div class="elem_1">
-                    <div class="box_w">
-                        <h1><strong>Où jouer</strong> en <strong itemprop="areaServed">Essonne</strong> ?</h1>
+                    <div class="box_w" itemprop="description">
+                        <h1><strong>Où jouer</strong> en <strong>Essonne</strong> ?</h1>
                     
                         <p>
                             Vous ne savez pas <strong>où jouer</strong> à vos <strong>jeux</strong> préférés. Vous cherchez un <strong itemprop="knowsAbout">club de jeux de société</strong> en <strong>Essonne</strong> ? <strong>Le Cercle Des Investigateurs</strong> à <strong>Saint Michel Sur Orge</strong> n'attend plus que vous !
                         </p>
 
+                        <p itemprop="potentialAction">
+                            Seul, entre amis ou en famille, rejoignez-nous pour une après-midi ludique !
+                        </p>
+
                         <p>
                             L'<strong>association</strong> est située à <strong>moins d'une heure de Paris</strong> et est accessible en transport en commun.
                         </p>
-                    </div><!--box_w-->
+                    </div><!--box_w itemprop="description"-->
                 </div><!--elem_1-->
 
                 <div class="elem_2">
-                    <figure>
-                        <a href="club_jeux_societe_adulte_91/carte.png" target="blank" class="effet"><img src="club_jeux_societe_adulte_91/carte_600.png" alt="Extrait de carte de l'Essonne pour situer notre club"></a>
+                    <figure itemprop="areaServed" itemscope itemtype="http://schema.org/Place" >
+                        <a itemprop="hasMap" href="club_jeux_societe_adulte_91/carte.png" target="blank" class="effet"><img src="club_jeux_societe_adulte_91/carte_600.png" alt="Extrait de carte de l'Essonne pour situer notre club"></a>
                         <figcaption>
-                            Extrait de carte de l'<strong>Essonne</strong> <a href="https://fr.mappy.com/itineraire" target="blank" title="Préparez votre itinéraire sur Mappy">Mappy</a>
+                            Extrait de carte de l'<strong itemprop="address">Essonne</strong>
                         </figcaption>
-                    </figure>
+                    </figure><!-- itemprop="areaServed" itemscope itemtype="http://schema.org/Place"-->
                 </div>
-                
             </section>
 
             <section id="horaires" class="box_long_r">
-                <div class="box_w">
-                    <div class="elem_1" itemprop="description">
+                <div class="box_w" itemprop="areaServed" itemscope itemtype="http://schema.org/Place">
+                    <div class="elem_1">
                         <h2>Les horaires du <strong>club</strong> :</h2>
                         <article>
-                            <h3>Tous les dimaches, les portes du Cerle des Investigateurs sont grandes ouvertes aux aventuriers.</h3>
-                            <ul>
-                                <li>Tous les dimanches : de 14h00 à 19h30 ;</li>
-                                <li>Parfois le samedi : à partir de 19h00.</li>
-                            </ul>
+                            <h3>Tous les dimaches, les portes du <span itemprop="publicAccess">Cerle des Investigateurs</span> sont grandes ouvertes aux aventuriers.</h3>
+                            <ul itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+                                <li><span itemprop="dayOfWeek">Tous les dimanches</span> : de <span itemprop="opens">14h00</span> à <span itemprop="closes">19h30</span> ;</li>
+                                <li><span itemprop="dayOfWeek">Parfois le samedi</span> : à partir de <span itemprop="opens">19h00</span>.</li>
+                            </ul><!--itemprop="openingHoursSpecification"-->
                             <p>
                                 Si une soirée <strong>jeux</strong> est prévue un samedi soir, c'est indiqué sur le forum.
                             </p>
-                            <p>
+                            <p itemprop="potentialAction">
                                 Pour nous rencontrer, vous pouvez simplement sonner à la porte, pas besoin de vous inscrire ou de prévenir.
                             </p>
                             <p>
@@ -200,7 +203,7 @@
                             
                         </article>
                     </div><!--elem_1-->
-                </div><!--box_w-->
+                </div><!--box_w itemprop="areaServed" itemscope itemtype="http://schema.org/Place"-->
 
                     <div class="elem_2">
                         <p class="bouton_box">
@@ -329,5 +332,5 @@
                 </figure>
             </section>
         </div><!--itemprop="mainEntity" itemscope itemtype="http://schema.org/Organization"-->
-    </body>
+    </body><!--itemscope itemtype="http://schema.org/WebPage"-->
 </html>
