@@ -366,9 +366,9 @@ strong
         flex-wrap: wrap;
     }
 
-    #banniere, img
+    #banniere, img, .box_w
     {
-        width: 400px;
+        max-width: 350px;
         transition: 0s;
     }
 
