@@ -162,6 +162,11 @@ strong
     box-shadow: 12px 12px 8px black;
 }
 
+li
+{
+    padding: 20px;
+}
+
 /*__________Box____________*/
 
 .box, .box_long, .box_long_r, .ludo, .mode, .bouton_box, .joueur, .navigation, .box_w, .page-nav input:checked ~ ul, #page-nav_p input:checked ~ ul
@@ -407,7 +412,7 @@ strong
 
     .box_long_r
     {
-        flex-direction: row;    
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
