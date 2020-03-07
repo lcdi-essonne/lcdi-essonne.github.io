@@ -13,7 +13,9 @@
 
         <meta charset="utf-8"/>
         <meta name="author" content="laurie.boissay@yahoo.fr">
-        <meta name="viewport" content="width=799">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <meta name="robots" content="index, follow">
         <meta name="description" content="Le Cercle Des Investigateurs est un club de jeux de société à Saint Michel sur Orge Essonne (91) : jeux de plateau, jeux de cartes, jeux de figurines, jeux de rôles... Que vous soyez novices ou confirmés, vous trouverez votre bonheur à LCDI."/>
 
@@ -34,7 +36,7 @@
         <meta property="og:site_name" content="Le Cercle Des Investigateurs"/>
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage">
+    <body>
         
         <header>
             <nav id="navigation">
@@ -63,10 +65,10 @@
                                 <label for="hamburger_forum" title="Menu">Forum</label>
                                 <input type="checkbox" id="hamburger_forum"/>
                                 <ul>
-                                    <li><a href="https://lecercle.xooit.fr/index.php" target="blank">Index</a></li>
-                                    <li><a href="https://lecercle.xooit.fr/f2-le-cercle-des-investigateurs.htm" target="blank">LCDI</a></li>
-                                    <li><a href="https://lecercle.xooit.fr/f7-Actualite-de-l-association.htm" target="blank">Actualité</a></li>
-                                    <li><a href="https://lecercle.xooit.fr/f52-Taverne.htm" target="blank">Salle de repos</a></li>
+                                    <li><a href="https://lecercle.xooit.fr/index.php" target="_blank">Index</a></li>
+                                    <li><a href="https://lecercle.xooit.fr/f2-le-cercle-des-investigateurs.htm" target="_blank">LCDI</a></li>
+                                    <li><a href="https://lecercle.xooit.fr/f7-Actualite-de-l-association.htm" target="_blank">Actualité</a></li>
+                                    <li><a href="https://lecercle.xooit.fr/f52-Taverne.htm" target="_blank">Salle de repos</a></li>
                                 </ul>
                             </div><!--page-nav-->
                         </div><!--burger-->
@@ -128,31 +130,32 @@
 
                 </ul>
             </nav>
-        </header>        
+        </header>
     
         <div id="burger_p">
             <div id="page-nav_p">
-                <label for="hamburger_p" title="Menu"><img src="logo/menu_noir.png" class="logo" alt="Menu"></label>
-                <input type="checkbox" id="hamburger_p"/>
-                <ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <div itemscope itemtype="http://schema.org/WebPage">
+                    <label for="hamburger_p" title="Menu"><img src="logo/menu_noir.png" class="logo" alt="Menu"></label>
+                    <input type="checkbox" id="hamburger_p"/>
+                    <ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="index.html"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b itemprop="name">LCDI</b></div></a><meta itemprop="position" content="1" /></li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="index.html"><div class="box_long"><img src="logo/home.png" class="logo" alt="LCDI"> <b itemprop="name">LCDI</b></div></a><meta itemprop="position" content="1" /></li>
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lecercle.xooit.fr/index.php" target="blank"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> <span itemprop="name">Forum</span></div></a><meta itemprop="position" content="2" /></li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lecercle.xooit.fr/index.php" target="_blank"><div class="box_long"><img src="logo/bulle.png" class="logo" alt="forum"> <span itemprop="name">Forum</span></div></a><meta itemprop="position" content="2" /></li>
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ludotheque_saint_michel_sur_orge.html"><div class="box_long"><img src="logo/meeple.png" class="logo" alt="Ludothèque"> <span itemprop="name">Ludothèque</span></div></a><meta itemprop="position" content="3" /></li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ludotheque_saint_michel_sur_orge.html"><div class="box_long"><img src="logo/meeple.png" class="logo" alt="Ludothèque"> <span itemprop="name">Ludothèque</span></div></a><meta itemprop="position" content="3" /></li>
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="blog_test_des_jeux_de_societe.html"><div class="box_long"><img src="logo/rouage.png" class="logo" alt="Tests"> <span itemprop="name">Tests</span></div></a><meta itemprop="position" content="4" /></li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="blog_test_des_jeux_de_societe.html"><div class="box_long"><img src="logo/rouage.png" class="logo" alt="Tests"> <span itemprop="name">Tests</span></div></a><meta itemprop="position" content="4" /></li>
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ou_jouer_en_essonne.html"><div class="box_long"><img src="logo/acces.png" class="logo" alt="Accessibilité"> <span itemprop="name">Accessibilité</span></div></a><meta itemprop="position" content="5" /></li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="ou_jouer_en_essonne.html"><div class="box_long"><img src="logo/acces.png" class="logo" alt="Accessibilité"> <span itemprop="name">Accessibilité</span></div></a><meta itemprop="position" content="5" /></li>
 
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="mentions.html"><div class="box_long"><img src="logo/loupe.png" class="logo" alt="Mentions Légales"> <span itemprop="name">Mentions Légales</span></div></a><meta itemprop="position" content="6" /></li>
-
-                </ul>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="mentions.html"><div class="box_long"><img src="logo/loupe.png" class="logo" alt="Mentions Légales"> <span itemprop="name">Mentions Légales</span></div></a><meta itemprop="position" content="6" /></li>
+                    </ul><!--itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"-->
+                </div><!--itemscope itemtype="http://schema.org/WebPage"-->
             </div><!--page-nav-->
         </div><!--burger-->
 
-        <div itemprop="mainEntity" itemscope itemtype="http://schema.org/Organization">
+        <div itemscope itemtype="http://schema.org/Organization">
             <section id="lcdi">
                 <h1><strong itemprop="name">Le Cercle des Investigateurs</strong></h1>
 
@@ -241,7 +244,7 @@
                     <figcaption>
                         La salle commune à toutes les <strong>associations</strong>
                     </figcaption>
-                </figure>                
+                </figure>
             </section>
 
             <section id="bureau" class="box_long">
@@ -261,7 +264,7 @@
                             </ul>
                             <p>
                                 Les membres du bureau sont responsables des clés et de l'ouverture de l'association.
-                            </p>                           
+                            </p>
                         </article>
                     </div><!--box_w-->
                 </div><!--elem_1-->
@@ -318,10 +321,10 @@
                     <h2>Partenariat :</h2>
                 </div><!--box_long-->
 
-                <div class="box_long">                    
+                <div class="box_long">
 
                     <div class="box_long joueur">
-                        <div class="box_w">                            
+                        <div class="box_w">
                             <article>
                                 <h3>Cellules grises :</h3>
                                 <p>
@@ -331,14 +334,14 @@
                                     La boutique propose un large choix de jeux de société. Les membres de notre association bénéficient d'une réduction de 10% sur leurs achats (hors livres) sur présentation de leur carte.
                                 </p>
                                 <p>
-                                    <a href="https://www.cellulesgrises.com/" target="blank" class="bouton" title= "Boutique de jeux de société et librairie">Cellules grises</a>
+                                    <a href="https://www.cellulesgrises.com/" target="_blank" class="bouton" title= "Boutique de jeux de société et librairie">Cellules grises</a>
                                 </p>
                             </article>
-                        </div><!--box_w-->                    
+                        </div><!--box_w-->
                     </div><!--box_long joueur-->
 
                     <div class="box_long joueur">
-                        <div class="box_w">                            
+                        <div class="box_w">
                             <article>
                                 <h3>La tartine ludique :</h3>
                                 <p>
@@ -351,9 +354,9 @@
                                     Michèle et Manu vous conseillent sur la carte et les jeux. Ils vous aident à la mise en place et vous expliquent les règles. C'est un endroit très chaleureux.
                                 </p>
                                 <p>
-                                    <a href="https://la-tartine-ludique.business.site/" target="blank" class="bouton" title= "Bar à jeux de société">La tartine ludique</a>
+                                    <a href="https://la-tartine-ludique.business.site/" target="_blank" class="bouton" title= "Bar à jeux de société">La tartine ludique</a>
                                 </p>
-                            </article>                        
+                            </article>
                         </div><!--box_w-->
                     </div><!--box_long joueur-->
 
@@ -371,7 +374,7 @@
                                     Organisation et préparation aux tournois de Go.
                                 </p>
                                 <p>
-                                    <a href="https://www.facebook.com/kamonoitte//" target="blank" class="bouton" title= "Association de Go">Club de Go</a>
+                                    <a href="https://www.facebook.com/kamonoitte//" target="_blank" class="bouton" title= "Association de Go">Club de Go</a>
                                 </p>
                             </article>
                         </div><!--box_w-->
@@ -388,7 +391,7 @@
                                     Les jeux d'Ornicar organisent aussi des animations et des concours de peinture de figurines.
                                 </p>
                                 <p>
-                                    <a href="https://www.facebook.com/lesjeuxdornicar/" target="blank" class="bouton" title= "Boutique de jeux de société et café ludique">Les jeux d'Ornicar</a>
+                                    <a href="https://www.facebook.com/lesjeuxdornicar/" target="_blank" class="bouton" title= "Boutique de jeux de société et café ludique">Les jeux d'Ornicar</a>
                                 </p>
                             </article>
                             
@@ -403,7 +406,7 @@
                                     Ace est une association de jeux de société d'Evry Courcouronne qui organise de nombreux tournois de figurines.
                                 </p>
                                 <p>
-                                    <a href="http://ace-jdf.forumactif.org/" target="blank" class="bouton" title= "Association jeux et figurines">Association Ace</a>
+                                    <a href="http://ace-jdf.forumactif.org/" target="_blank" class="bouton" title= "Association jeux et figurines">Association Ace</a>
                                 </p>
                             </article>
                         </div><!--box_w-->
@@ -411,5 +414,5 @@
                 </div><!--box_long-->
             </section><!--box_long partenariat-->
         </div><!--itemscope itemtype="http://schema.org/Organization"-->
-    </body><!--itemscope itemtype="http://schema.org/WebPage"-->
+    </body>
 </html>

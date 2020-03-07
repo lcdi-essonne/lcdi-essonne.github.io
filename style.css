@@ -358,13 +358,12 @@ strong
     .page-nav input:checked ~ ul, .page-nav input, #page-nav_p input, nav
     {
         display: none;
-    }
-   
+    }   
 
-    #page-nav_p
+    #page-nav_p, #horaires
     {
         display: flex;
-        flex-wrap: 
+        flex-wrap: wrap;
     }
 
     #banniere, img
@@ -415,11 +414,12 @@ strong
     p, ul, ol
     {
         font-size: 150%;
+        padding-top: 20px;
     }
 
     li
     {
-        margin-top: 20px;
+        padding-top: 30px;
     }
 
     section
@@ -432,5 +432,10 @@ strong
         max-height: inherit;
     }
     
-
+    #horaires
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
 }
