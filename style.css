@@ -380,17 +380,17 @@ strong
 
     h1
     {
-        font-size: 250%;
+        font-size: 230%;
     }
 
     h2, #accueil
     {
-        font-size: 200%;
+        font-size: 180%;
     }
 
     h3
     {
-        font-size: 170%;
+        font-size: 150%;
     }
 
     .joueur img
@@ -413,7 +413,7 @@ strong
 
     p, ul, ol
     {
-        font-size: 150%;
+        font-size: 130%;
         padding-top: 20px;
     }
 
