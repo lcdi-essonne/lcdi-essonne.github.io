@@ -366,7 +366,7 @@ strong
         flex-wrap: wrap;
     }
 
-    #banniere, img, .box_w
+    #banniere, img, .box_w, .joueur
     {
         max-width: 350px;
         transition: 0s;
