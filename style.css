@@ -431,11 +431,4 @@ strong
     {
         max-height: inherit;
     }
-    
-    #horaires
-    {
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
 }
