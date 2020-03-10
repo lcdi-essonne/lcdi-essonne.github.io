@@ -348,6 +348,11 @@ strong
         display: none;
     }
 
+#calendar_p
+{
+    display: none;
+}
+
 
 /*____________Tableau__________*/
 
@@ -458,5 +463,15 @@ th
     table
     {
         margin-left: 20px;
+    }
+
+    #calendar_g
+    {
+        display: none;
+    }
+
+    #calendar_p
+    {
+        display: block;
     }
 }
