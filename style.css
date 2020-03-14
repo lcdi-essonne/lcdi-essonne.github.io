@@ -224,6 +224,10 @@ strong
 .annonce
 {
     padding: 10px;
+    border: 3px #FE2E2E outset;
+    background-color: #F7BE81;
+    border-radius: 25px;
+    box-shadow: 6px 6px 5px black;
 }
 
 /*__________Logo____________*/
